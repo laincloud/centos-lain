@@ -20,8 +20,7 @@ RUN yum -y update \
 # Installing Golang
     && curl -OL https://storage.googleapis.com/golang/go$GO_VERSION.linux-amd64.tar.gz \
     && tar -zxf go$GO_VERSION.linux-amd64.tar.gz -C /usr/local \
-    && mkdir -p /go/src /go/bin \
-    && chmod -R 777 /go \
+    && mkdir -p /go/src /go/bin /go/pkg \
 # Installing Python
     && yum install -y python-pip libevent-devel python-backports-lzma \
     && pip install --upgrade pip \
