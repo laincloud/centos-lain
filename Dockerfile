@@ -22,7 +22,7 @@ RUN yum -y update \
     && tar -zxf go$GO_VERSION.linux-amd64.tar.gz -C /usr/local \
     && mkdir -p /go/src /go/bin /go/pkg \
 # Installing Python
-    && yum install -y python-pip libevent-devel python-backports-lzma \
+    && yum install -y python-pip libevent-devel python-backports-lzma python-devel \
     && pip install --upgrade pip \
 # Clean installed and downloaded packages
     && yum -y clean all \
