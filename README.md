@@ -18,6 +18,7 @@ See the details of version information [here](https://github.com/laincloud/cento
 - make
 - mariadb-devel
 - openssl-devel
+- python-devel
 - tar
 - unzip
 - wget
