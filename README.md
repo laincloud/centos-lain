@@ -1,5 +1,5 @@
-# centos-lain
-[![MIT license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT) 
+# Centos-lain
+[![MIT license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
 [![](https://imagelayers.io/badge/laincloud/centos-lain:latest.svg)](https://imagelayers.io/?images=laincloud/centos-lain:latest 'Get your own badge on imagelayers.io')
 
 The recommended base image for building applications of LAIN cloud.
@@ -21,3 +21,6 @@ See the details of version information [here](https://github.com/laincloud/cento
 - tar
 - unzip
 - wget
+
+## License
+Centos-lain is released under the [MIT license](https://github.com/laincloud/centos-lain/blob/master/LICENSE).
