@@ -5,7 +5,7 @@
 The recommended base image for building applications of LAIN cloud.
 
 ## Introduction
-This image is used to unify the building environment of LAIN applications. It is based on [CentOS7.x](https://www.centos.org/), and includes the environment of [Golang](https://golang.org/), [Python](https://www.python.org/) and [Node.js](https://nodejs.org/en/).
+This image is used to unify the building environment of LAIN applications. It is based on [CentOS 7](https://www.centos.org/), and includes the environment of [Golang](https://golang.org/), [Python](https://www.python.org/) and [Node.js](https://nodejs.org/en/).
 
 See the details of version information [here](https://github.com/laincloud/centos-lain/blob/master/CHANGELOG.md).
 
