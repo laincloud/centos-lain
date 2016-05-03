@@ -1,4 +1,7 @@
 # CHANGELOG
+## 20160503
+- Add bind-utils
+- Add iproute
 
 ## 20160428.1
 - Add python-devel
