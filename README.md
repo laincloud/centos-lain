@@ -10,10 +10,12 @@ This image is used to unify the building environment of LAIN applications. It is
 See the details of version information [here](https://github.com/laincloud/centos-lain/blob/master/CHANGELOG.md).
 
 ## Pre-installed packages
+- bind-utils
 - curl
 - epel-release
 - gcc
 - git
+- iproute
 - libffi-devel
 - make
 - mariadb-devel
