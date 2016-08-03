@@ -1,4 +1,7 @@
 # CHANGELOG
+## 20160803
+- Update Golang: 1.6.3
+
 ## 20160503
 - Add bind-utils
 - Add iproute
