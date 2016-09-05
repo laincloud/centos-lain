@@ -1,6 +1,6 @@
 FROM centos:7.2.1511
 
-ENV GO_VERSION=1.6.3 \
+ENV GO_VERSION=1.7 \
     NODEJS_VERSION=v5.10.1 \
     LANG=en_US.UTF-8 \
     LC_ALL=en_US.UTF-8 \

@@ -1,4 +1,7 @@
 # CHANGELOG
+## 20160905
+- Update Golang: 1.7
+
 ## 20160803
 - Update Golang: 1.6.3
 
