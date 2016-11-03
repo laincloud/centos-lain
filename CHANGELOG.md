@@ -1,4 +1,10 @@
 # CHANGELOG
+## 20161103
+- Update Nodejs: v6.9.1
+
+## 20161025
+- Update Golang: 1.7.3
+
 ## 20160905
 - Update Golang: 1.7
 
