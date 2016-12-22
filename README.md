@@ -24,6 +24,7 @@ See the details of version information [here](https://github.com/laincloud/cento
 - tar
 - unzip
 - wget
+- telnet
 
 ## License
 CentOS-LAIN is released under the [MIT license](https://github.com/laincloud/centos-lain/blob/master/LICENSE).
