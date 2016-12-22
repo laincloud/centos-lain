@@ -1,4 +1,10 @@
 # CHANGELOG
+
+## 20161222
+- Update Golang: 1.7.4
+- Update CentOS: 7.3.1611
+- Divide into multiple layers
+
 ## 20161103
 - Update Nodejs: v6.9.1
 
