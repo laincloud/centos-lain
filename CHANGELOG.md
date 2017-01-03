@@ -1,4 +1,6 @@
 # CHANGELOG
+## 20170103
+- Install net-utils
 
 ## 20161222
 - Update Golang: 1.7.4

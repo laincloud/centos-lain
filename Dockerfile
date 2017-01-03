@@ -8,7 +8,7 @@ ENV GO_VERSION=1.7.4 \
     PATH=/usr/local/go/bin:/go/bin:$PATH
 
 RUN yum -y update \
-    && yum -y install epel-release gcc make git tar mariadb-devel libffi-devel openssl-devel unzip wget curl iproute bind-utils telnet \
+    && yum -y install epel-release gcc make git tar mariadb-devel libffi-devel openssl-devel unzip wget curl iproute bind-utils telnet net-utils \
     && localedef -c -f UTF-8 -i en_US en_US.UTF-8 \
     && rm -f /etc/localtime \
     && ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
