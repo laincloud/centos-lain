@@ -19,7 +19,7 @@ See the details of version information [here](https://github.com/laincloud/cento
 - libffi-devel
 - make
 - mariadb-devel
-- net-utils
+- net-tools
 - openssl-devel
 - python-devel
 - tar
