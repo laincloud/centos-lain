@@ -1,4 +1,7 @@
 # CHANGELOG
+## 20170405
+- Change net-utils to net-tools
+
 ## 20170217
 - Update Golang: 1.8
 
