@@ -1,4 +1,4 @@
-FROM centos:7.3.1611
+FROM laincloud/centos:7.3.1611
 
 ENV GO_VERSION=1.8 \
     NODEJS_VERSION=v6.9.1 \
