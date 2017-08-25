@@ -1,0 +1,14 @@
+language: ruby
+
+services:
+  - docker
+
+script:
+  - docker build -t laincloud/centos-lain .
+
+after_success:
+  - if [ "$TRAVIS_TAG" != "" ]; then
+    docker login -u="$DOCKER_USER" -p="$DOCKER_PASSWORD";
+    docker tag laincloud/centos-lain "laincloud/centos-lain:$TRAVIS_TAG";
+    docker push "laincloud/centos-lain:$TRAVIS_TAG";
+    fi
